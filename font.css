@@ -1,0 +1,19 @@
+@font-face {
+  font-family: CookieRun_Bold;
+  src: url('./fonts/CookieRun_Bold.ttf');
+}
+
+@font-face {
+  font-family: CookieRun_Black;
+  src: url('./fonts/CookieRun_Black.ttf');
+}
+
+@font-face {
+  font-family: CookieRun_Regular;
+  src: url('./fonts/CookieRun_Regular.ttf');
+}
+
+@font-face {
+  font-family: Youth;
+  src: url('./fonts/Youth.ttf');
+}

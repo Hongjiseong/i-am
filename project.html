@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>프로젝트 정보</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <meta property="og:url" content="http://www.horong-story.com" />
+  <meta property="og:title" content="웹개발자의 성장하는 포트폴리오" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.horong-story.com/images/profile.png" />
+  <meta property="og:description" content="웹개발자로 살아가면서 얻게되는 경험과 함께 성장해나가는 포트폴리오입니다." />
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rufina&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./font.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./bootstrap-grid.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+  <script src='./js/slider.js'></script>
+</head>
+<body>
+  <h1 class="project-name">프로젝트 이름</h1>
+  <section class="menu">
+    <article class="item"><i class="fas fa-project-diagram"></i></article>
+    <article class="item"></article>
+    <article class="item"></article>
+  </section>
+</body>
+<script>
+  const title = decodeURI(document.URL).split('q=')[1];
+  document.querySelector('.project-name').innerHTML = title;
+</script>
+</html>

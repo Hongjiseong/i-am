@@ -1,0 +1,41 @@
+.main-banner {
+  height: 100vh;
+  background: {
+    image: url('images/main.jpg');
+    size: cover;
+    position-x: center;
+    repeat: no-repeat;
+    color: #ffffff55;
+  };
+  
+  .filter {
+    position: relative;
+    background-color: #00000099;
+    color: #fff;
+    height: 100vh;
+  }
+
+  h1 {
+    position: absolute;
+    display: inline-block;
+    border: 10px solid #fff;
+    text-align: center;
+    font: {
+      size: 55px;
+      weight: bold;
+      // family: Youth, sans-serif;
+      family: Cookierun_Bold, sans-serif;
+    }
+    padding: 100px 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
+    width: 1000px;
+    @media screen and (max-width: 768px) {
+      padding: 70px 40px;
+      font-size: 30px;
+      border: 7px solid #fff;
+    }
+  }
+}
